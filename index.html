@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head-label {
+            display: flex;
+            flex-direction: column;
+            padding: 8px;
+            border: 1px solid black;
+            align-items: center;
+            font-size: xx-large;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); /* 5 equal columns */
+            gap: 16px; /* Optional: Adds space between items */
+            padding: 16px;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 8px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-decoration: none; /* Prevents the card from being underlined */
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .card-name {
+            font-size: 1.2rem;
+            margin: 8px 0;
+            color: black; /* Ensures the name stays black and not blue */
+        }
+
+        .card a {
+            text-decoration: none; /* Prevents underline on anchor tag */
+            color: inherit; /* Inherits the color from the parent element (card-name) */
+        }
+
+        .card a:hover {
+            text-decoration: none; /* Prevents the hover underline effect */
+        }
+    </style>
+</head>
+<body>
+    <div class="head-label">สมาชิก</div>
+    <div class="container">
+        <!-- Example 5 cards per row -->
+        <a class="card" href="66160351.html">
+            <img src="66160351.jpg" alt="Image 1">
+            <h3 class="card-name">Nabhon</h3>
+        </a>
+        <a class="card" href="66160353.html">
+            <img src="66160353.jpg" alt="Image 2">
+            <h3 class="card-name">Natchaya</h3>
+        </a>
+        <a class="card" href="66160099.html">
+            <img src="66160099.jpg" alt="Image 3">
+            <h3 class="card-name">Naphat</h3>
+        </a>
+        <a class="card" href="6616.html">
+            <img src="6616.jpg" alt="Image 3">
+            <h3 class="card-name">Sirorat</h3>
+        </a>
+        <a class="card" href="6616.html">
+            <img src="6616.jpg" alt="Image 3">
+            <h3 class="card-name">Thanaporn</h3>
+        </a>
+        <a class="card" href=".html">
+            <img src="6616.jpg" alt="Image 3">
+            <h3 class="card-name">Kitsada</h3>
+        </a>
+        <a class="card" href="6616.html">
+            <img src="6616.jpg" alt="Image 3">
+            <h3 class="card-name">Wasan</h3>
+        </a>
+        <a class="card" href="6616373.html">
+            <img src="6616373.jpg" alt="Image 3">
+            <h3 class="card-name">Waranchai</h3>
+        </a>
+        <a class="card" href="page3.html">
+            <img src="66160351.jpg" alt="Image 3">
+            <h3 class="card-name"></h3>
+        </a>
+        <a class="card" href="page3.html">
+            <img src="66160351.jpg" alt="Image 3">
+            <h3 class="card-name">Name 3</h3>
+        </a>
+        <a class="card" href="page3.html">
+            <img src="66160351.jpg" alt="Image 3">
+            <h3 class="card-name">Name 3</h3>
+        </a>
+        
+    </div>
+</body>
+</html>
